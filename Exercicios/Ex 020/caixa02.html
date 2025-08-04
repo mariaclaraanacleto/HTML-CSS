@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.414);
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow:5px 4px 10px 0px rgba(0, 0, 0, 0.245);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.414);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: gray;
+            color: white;
+            box-shadow:5px 4px 10px 0px rgba(0, 0, 0, 0.314);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 4px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+<body>
+    <header>
+        <article>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+        </article> 
+    </header>
+    <main>
+        <section id="Fofocas">
+            <article>
+                <h2>Virginia e Zé Felipe terminaram!</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, corporis eaque tempore, quos modi expedita aliquam, dolores consectetur ducimus adipisci dolor vero iste provident. Iste corporis aliquid illum fugit exercitationem.m</p>
+                <aside>
+                    <p>Artigo feito por Léo Dias</p>
+                </aside>
+            </article>
+        </section>
+        <section id="Prévisões">
+            <article>
+                <h2>Novas prévisões de Marcia Sensitiva </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ratione iste nemo officia asperiores, quo nihil assumenda provident, eius dolore itaque sint consectetur. Perferendis laboriosam soluta quos, accusantium sit recusandae!</p>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet quasi tempora! Itaque eos eum quibusdam cum, est esse dolorum soluta beatae dolore, optio repellat porro necessitatibus aliquam, exercitationem rem.</p>
+                 <aside>
+                    <p>Artigo escrito por Marcia Sensitiva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+       <p>Desenvolvido por Maria Clara em julho de 2025</p> 
+    </footer>
+</body>
+</html>
