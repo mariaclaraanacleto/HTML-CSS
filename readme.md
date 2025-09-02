@@ -2,3 +2,5 @@
  Curso de HTML5 e CSS3 do Cursovídeo
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
+
+<a href="https://mariaclaraanacleto.github.io/HTML-CSS/Exercicios/Ex 001/">Executar o ex 001</a>
