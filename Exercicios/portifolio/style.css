@@ -9,9 +9,12 @@ h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 > a{
+a{
     color: white;
     text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 4px;
 }
 
 a:hover{
