@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
+*{
+    padding: ;
+}
+
 body, html{
     background-color: lightgray;
 }
+
+header{
+    background-color: gray;
+    height: 105px;
+    width:1520px;
+}
+
+h1{
+    text-align: center;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+ul, li{
+    background-color: rgb(65, 65, 65);
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+}
+
