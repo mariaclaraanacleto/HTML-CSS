@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-/*Mobile first*/
-
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     *{
         font-family: Arial, Helvetica, sans-serif;
         margin: 0px;
@@ -12,7 +10,6 @@
     header{
         text-align: center;
         background-image: linear-gradient(to top, #00a2c3, #90E0EF);
-        
     }
 
     span#burguer{
@@ -60,8 +57,8 @@
 
     main{
         background-color: #CAF0F8;
-        min-width: 300px;
-        max-width: 1000px;
+        width: 800px;
+        height: 500px;
         margin: 10px auto;
         border-radius: 15px;
         box-shadow: 2px 4px 15px black;
@@ -74,11 +71,12 @@
         text-indent: 30px;
         line-height: 1.5em;
         padding: 10px;
+        text-align: center;
     }
 
     footer{
         background-color: #0077B6;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 23px;
     }
 }
