@@ -1,9 +1,16 @@
 @charset "UTF-8";
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: grid;
-    height: 300px;
+    width: 100vw;
+    height: 100vh;
     grid-template: 2fr 1fr 4fr 1fr / 1fr 2fr 1fr;
+    gap: 5px;
 }
 
 .topo{
